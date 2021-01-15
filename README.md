@@ -6,3 +6,6 @@ How to run:
                     
   2. Apply the following command to get the count of each city - 
                     sort cities.txt | uniq -c
+
+  3. The final occurrences of cities is saved in the file count.txt using the above command by redirecting the output using '>' operator
+                    sort cities.txt | uniq -c > count.txt
